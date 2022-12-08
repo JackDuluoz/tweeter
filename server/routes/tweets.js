@@ -3,6 +3,7 @@
 const userHelper    = require("../lib/util/user-helper")
 
 const express       = require('express');
+const { application } = require("express");
 const tweetsRoutes  = express.Router();
 
 module.exports = function(DataHelpers) {
@@ -25,7 +26,7 @@ module.exports = function(DataHelpers) {
 
     const user = req.body.user ? req.body.user : userHelper.generateRandomUser();
     const tweet = {
-      user: user,
+      user: "Matthew Richardson",
       content: {
         text: req.body.text
       },
@@ -41,6 +42,6 @@ module.exports = function(DataHelpers) {
     });
   });
 
-  return tweetsRoutes;
+   return tweetsRoutes;
 
 }

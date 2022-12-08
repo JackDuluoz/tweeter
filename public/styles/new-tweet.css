@@ -1,0 +1,32 @@
+
+.new-tweet {
+  display: flex;
+  width: 60%;
+}
+
+#tweet-text-box {
+  width: 100%;
+}
+
+#new-tweet-text-area {
+  height: 40px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  text-align: left;
+}
+
+.button-counter {
+  font-family: 'Bungee', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#submit-new-tweet {
+  background-color: #4056A1;
+  color: #FFFFFF;
+}
