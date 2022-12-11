@@ -31,9 +31,10 @@
   margin: 0px;
 }
 
-/* .avatars:hover {
-  border: 2px solid #4056A1;
-} */
+.avatars {
+  max-height: 50px;
+  max-width: 50px;
+}
 
 .name {
   margin-left: 5px;
