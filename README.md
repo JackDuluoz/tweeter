@@ -6,8 +6,9 @@ The project was built using HTML, CSS, JS, jQuery, and AJAX in order to develop 
 
 ## Final Product
 
-!["User Home Screen"](https://github.com/JackDuluoz/tinyapp/blob/master/docs/urls-page.png?raw=true)
-!["Create New Page"](https://github.com/JackDuluoz/tinyapp/blob/master/docs/create-page.png?raw=true)
+!["Tablet UI"](https://github.com/JackDuluoz/tweeter/blob/master/docs/tablet.png?raw=true)
+!["Mobile UI"](https://github.com/JackDuluoz/tweeter/blob/master/docs/mobile.png?raw=true)
+!["Desktop UI"](https://github.com/JackDuluoz/tweeter/blob/master/docs/desktop.png?raw=true)
 
 ## Getting Started
 
