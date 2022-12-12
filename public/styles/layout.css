@@ -29,3 +29,42 @@ main {
   justify-content: flex-start;
   align-items: center;
 }
+
+/* For tablet screens, the ehader and main elements are displayed in columns
+and sized acordingly. */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {  
+  
+  body {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;    
+  }
+
+  #user-header {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 40vh;
+    max-height: 40vh; 
+    margin-top: 3vh; 
+    margin-left: 2vw;
+  }
+
+  .user-picture {
+    width: 100px;
+    height: 150px;;
+  }
+
+  .user-name {
+    font-size: 1.5rem;
+  }
+
+  main {
+    flex-direction: column;
+    min-width: 50vw;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
+  }
+
+}

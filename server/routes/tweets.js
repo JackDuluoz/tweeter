@@ -24,7 +24,10 @@ module.exports = function(DataHelpers) {
       return;
     }
 
+    
     const user = req.body.user ? req.body.user : userHelper.generateRandomUser();
+    
+    // Updated mock data for our user.
     const tweet = {
       "user": {
         "name": "Matthew Richardson",
